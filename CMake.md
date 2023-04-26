@@ -1,7 +1,16 @@
 # CMake
 
+**DISCLAIMER: MIGHT NOT BE THE BEST WAY TO DO THINGS, THESE ARE JUST WHAT I DO**
+
 For CMake related things, mostly CMakeLists.txt related things.
-DISCLAIMER: MIGHT NOT BE THE BEST WAY TO DO THINGS, THESE ARE JUST WHAT I DO
+Regular C++ program structure (for reference)  
+- /ProjectDir/  
+    - /bin/  
+    - /src/  
+    - [git-related files]<br>
+
+So far my projects haven't required me to stray from this norm but this will probably change later in the future  
+
 
 ## Starter template for project
 
