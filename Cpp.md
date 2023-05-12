@@ -14,15 +14,21 @@ SUBJECT TO CHANGE
 - set tabs = 4 spaces
 
 ### Naming
-- Non-const Variables and Functions
-  - Use mixedCase
-  - Ex. `engine`, `carBrand`, `horsePower`
-- Const Variables
-  - Use ALLCAPS
-  - Ex. `MAXRPM`, `GRAVITY`, `FRICTION`
-- Classes and Structs
-  - Use CamelCase
-  - Ex. `Plane`, `JetEngine`, `PlaneWings`
+Element | Convention | Example
+--- | :---: | ----
+Variables | snake_case | `bool is_frozen = false;`
+Const Variable | snake_case | `const int screen_height = 1080;`
+Functions | TitleCase | `void AddScore()`
+Function Parameters | snake_case | `double new_color`
+Classes | TitleCase | `class PickupTruck`
+Attributes | snake_case | `int engine_horsepower;`
+Methods | TitleCase | `bool IsEngineBroken()`
+Structs | TitleCase | `struct 3dPoint`
+Struct Members | snake_case | `int x_coordinate;`
+Enum | TitleCase | `enum Colors`
+Enum Members | ALL_CAPS | `BLUE,`
+Pointers | Type* variable_name | `Player* player_1;`
+References | Type& variable_name | `Player& player_1;`
 
 ### Files
 - use `.cpp` for source code and `.hpp` for header files
@@ -56,4 +62,4 @@ Braces
   - Ex. `int horsepower { 800 };`
   - its safer
   - make sure to put a space after the variable name and spaces seperating the value of the variable with the curly braces
-- 
+
